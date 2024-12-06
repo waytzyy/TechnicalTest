@@ -1,8 +1,71 @@
-# Welcome to your Expo app 👋
+# Welcome to your Expo Card Carousel App 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project featuring an animated card carousel implementation.
 
-## Get started
+## Features
+
+### Core Components
+
+Card Component
+
+- Basic card display with image and content
+- Horizontal scrollable list
+- Modal expansion on tap
+CarouselView Component
+
+- Animated carousel with scaling effects
+- Rating display with stars
+- Category badges
+- Gradient overlays
+
+ExpandedCard Component
+
+- Full-screen detailed view
+- Gesture-based interactions
+- Smooth transitions
+
+### Key Features
+
+- Smooth animations with interpolation
+- Gesture handling with Pan gestures
+- Error boundaries for crash prevention
+- Responsive design with screen dimensions
+- Image loading error handling
+- Custom styling with StyleSheet
+
+### Implementation Highlights
+
+#### Animations
+
+- Scale transitions
+- Opacity changes
+- Position animations
+
+#### Performance
+
+- Gesture worklets
+- Shared values
+- Error boundaries
+
+#### UX Features
+
+- Intuitive gestures
+- Visual feedback
+- Error handling
+
+### Common Issues & Solutions
+
+1. Performance: Used worklets for smooth animations
+2. Memory: Proper cleanup in useEffect
+3. Errors: Implemented error boundaries
+
+### Future Improvements
+
+1. Virtual list rendering
+2. Image caching
+3. Accessibility support
+
+## Getting Started
 
 1. Install dependencies
 
@@ -13,38 +76,24 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 2. Start the app
 
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+## Development Options
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+You can run the app in:
+
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Learn More
 
-## Get a fresh project
+- [Expo documentation](https://docs.expo.dev/)
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/)
 
-When you're ready, run:
+## Community
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Discord community](https://chat.expo.dev)
